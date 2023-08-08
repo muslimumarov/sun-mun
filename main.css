@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+img {
+  display: block;
+}
+body {
+  font-family: "", "Arial", sans-serif;
+  font-weight: ;
+  background-image: url("");
+  animation-name: bodydark;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+/* Header section started */
+.site__main {
+  flex-grow: 1;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kun {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid yellow;
+  background-color: yellow;
+}
+.tun {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(10, 10, 8);
+  animation-name: shadow;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadow {
+  0% {
+    transform: translateX(160px);
+    background-color: #fff;
+  }
+  50% {
+    transform: translateX(-10px);
+    background-color: #000;
+  }
+  100% {
+    transform: translateX(-170px);
+    background-color: #fff;
+  }
+}
+@keyframes bodydark {
+  0% {
+    transform: translateX(0px);
+    background-color: #fff;
+    margin-top: 250px;
+  }
+  50% {
+    transform: translateX(-10px);
+    background-color: #000;
+    margin-top: 250px;
+
+  }
+  100%  {
+    transform: translateX(-170px);
+    background-color: #fff;
+    margin-top: 250px;
+
+  }
+}
+/* Header section finished */
+/* Main section started */
+/* Hero section started */
+
+/* Hero section finished */
+/* Section started */
+
+/* Section fininsed */
+/* Main section finished */
+/* Footer section started */
+
+/* Footer section finished */
